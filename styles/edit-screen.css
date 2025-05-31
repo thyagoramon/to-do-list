@@ -14,6 +14,12 @@
 	width: 33vw;
 	border-radius: 5px;
 	box-shadow: var(--shadow);
+	@media (max-width: 900px) {
+		width: 66vw;
+	}
+	@media (max-width: 600px) {
+		width: 90vw;
+	}
 
 	label {
 		margin-bottom: 10px;

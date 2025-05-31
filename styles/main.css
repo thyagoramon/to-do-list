@@ -19,6 +19,7 @@
 	--element-border: #dad7d7;
 	--shadow: 0 0 20px 0px rgba(0, 0, 0, 0.25);
 	--backdrop: rgba(255, 255, 255, 0.75);
+	--font-size: 20px;
 }
 
 * {
@@ -28,6 +29,7 @@
 	color: var(--titles);
 	font-family: "Inter", sans-serif;
 	box-sizing: border-box;
+	font-size: var(--font-size);
 }
 
 body {
