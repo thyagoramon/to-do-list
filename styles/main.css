@@ -1,0 +1,56 @@
+@import url(parts.css);
+@import url(header.css);
+@import url(new-task.css);
+@import url(options.css);
+@import url(tasks.css);
+@import url(edit-screen.css);
+@import url(dark-mode.css);
+
+:root {
+	--background: white;
+	--titles: black;
+	--texts: #c2764f;
+	--input-background: #f3efee;
+	--input-placehoulder:#b9b7b7;
+	--btn-background: #969494;
+	--btn-text-a: white;
+	--btn-text-b: #969494;
+	--btn-disabled: #dad7d7;
+	--element-border: #dad7d7;
+	--shadow: 0 0 20px 0px rgba(0, 0, 0, 0.25);
+	--backdrop: rgba(255, 255, 255, 0.75);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: var(--titles);
+	font-family: "Inter", sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	position: relative;
+	background-color: var(--background);
+}
+
+.container {
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	margin: 20px 0 auto 0;
+	z-index: 1;
+	@media (max-width: 900px) {
+		width: 90vw;
+	}
+}

@@ -1,0 +1,62 @@
+#tasks {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	width: 100%;
+	padding: 5px 0;
+}
+
+.task-div {
+	padding: 10px 20px;
+	margin: 5px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	gap: 10px;
+	background-color: var(--input-background);
+	border-radius: 5px;
+	transition: 0.3s ease;
+	&:hover {
+		background-color: var(--element-border);
+	}
+}
+
+.task-checkbox {
+	cursor: pointer;
+}
+
+.task-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	width: 100%;
+	margin-top: 3px;
+}
+
+.task-description {
+	font-weight: 400;
+}
+
+.task-title, .task-description {
+	color: inherit;
+}
+
+.task-buttons {
+	display: flex;
+	gap: 10px;
+	@media (max-width: 600px) {
+		flex-direction: column;
+		gap: 5px;
+	}
+}
+
+.task-pending {
+	color: var(--titles);
+}
+.task-completed {
+	text-decoration: line-through;
+	color: var(--texts);
+}

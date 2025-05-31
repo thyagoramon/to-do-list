@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To-do List</title>
+	<link rel="stylesheet" href="./styles/main.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<header class="header">
+			<h1>To-Do List</h1>
+			<button id="dark-mode" class="btn btn-type-b">Modo escuro</button>
+		</header>
+
+		<form class="new_task">
+			<p>Nova tarefa</p>
+			<input id="new_task-title" class="input" type="text" placeholder="Título">
+			<textarea id="new_task-description" class="input" placeholder="Descrição" rows="1"></textarea>
+			<button id="new_task-button" class="btn btn-type-a">Adicionar tarefa</button>
+		</form>
+
+		<section id="options" class="options">
+			<input id="options-all" type="checkbox">				
+			<div id="options-filters">
+				<p>Filtro:</p>
+				<button id="options-filters-all" class="btn btn-type-a">Tudo</button>
+				<button id="options-filters-completed" class="btn btn-type-a filter-desabled">Concluídas</button>
+				<button id="options-filters-pending" class="btn btn-type-a filter-desabled">Pendentes</button>
+			</div>
+			<button id="options-remove-all" class="btn btn-type-b">Remover tudo</button>
+		</section>
+
+		<section id="tasks">
+		</section>
+	</div>
+
+	<form id="edit_task">
+		<label for="edit-title">Editar título:</label>
+		<input id="edit-title" class="input" type="text" placeholder="Título">
+		<label for="edit-description">Esitar descrição:</label>
+		<textarea id="edit-description" class="input" placeholder="Descrição" rows="1"></textarea>
+		<div class="edit-buttons">
+			<button id="edit-confirm" class="btn btn-type-a">Confirmar</button>
+			<button id="edit-cancel" class="btn btn-type-a">Cancelar</button>
+		</div>
+	</form>
+	<div id="backdrop"></div>
+
+	<script type="module" src="main.js"></script>
+</body>
+</html>
+
+<!--
+<div id="task-${data.id}" class="task-div" data-status="pending">
+	<input id="task-checkbox-${data.id}" class="task-checkbox" data-id="${data.id}" type="checkbox">
+	<div id="task-content-${data.id}" class="task-content task-pending">
+		<p id="task-title-${data.id}" class="task-title">${data.title}:</p>
+		<p id="task-description-${data.id}" class="task-description">${data.description}</p>
+	</div>
+	<div class="task-buttons">
+		<button class="task-edit btn btn-type-b" data-id="${data.id}">Editar</button>
+		<button class="task-remove btn btn-type-b" data-id="${data.id}">Remover</button>
+	</div>
+</div>
+-->

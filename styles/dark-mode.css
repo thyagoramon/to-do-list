@@ -1,0 +1,14 @@
+.dark-mode {
+	--background: #000;
+	--titles: #bfbfbf;
+	--texts: #c2764f;
+	--input-background: #121212;
+	--input-placehoulder:#606060;
+	--btn-background: #606060;
+	--btn-text-a: #000;
+	--btn-text-b: #808080;
+	--btn-disabled: #303030;
+	--element-border: #303030;
+	--shadow: 0 0 20px 0px rgba(0, 0, 0, 0.25);
+	--backdrop: rgba(255, 255, 255, 0.75);
+}

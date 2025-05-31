@@ -1,0 +1,32 @@
+.options {
+	display: none;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	gap: 30px;
+	border: 1px solid var(--element-border);
+	padding: 10px 20px;
+	border-radius: 5px;
+	@media (max-width: 600px) {
+		align-items: end;
+	}
+}
+
+#options-all {
+	cursor: pointer;
+}
+
+#options-filters {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	@media (max-width: 600px) {
+		justify-content: center;
+		gap: 6px;
+		flex-wrap: wrap;
+	}
+}
+
+.filter-desabled {
+	background-color: var(--btn-disabled);
+}
