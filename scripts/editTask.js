@@ -74,15 +74,12 @@ function confirmEdit(id) {
 
 //função para cancelar edição
 function cancelEdit() {
-	let confirmation = confirm('Descartar alterações?');
-	if (confirmation) {
-		editScreen.style.display = 'none';
-		backdrop.style.display = 'none';
-		currentContent = [];
-		titleInput.value = '';
-		descriptionInput.value = '';
-		state.editMode = false;
-	}
+	editScreen.style.display = 'none';
+	backdrop.style.display = 'none';
+	currentContent = [];
+	titleInput.value = '';
+	descriptionInput.value = '';
+	state.editMode = false;
 }
 
 //cancelar ao clicar no backdrop
