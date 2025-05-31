@@ -1,6 +1,6 @@
 # To-Do List — Projeto JavaScript
 
-## [Link do deploy na Vercellink](https://to-do-list-omega-liard.vercel.app/)
+## [Link do deploy na Vercel](https://to-do-list-omega-liard.vercel.app/)
 
 ## ✅ Funcionalidades mínimas
 
