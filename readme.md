@@ -1,8 +1,10 @@
 # To-Do List
-**Projeto para estudo feito com HTML, CSS e JavaScript**
 
-**[Link do deploy na Vercel](https://to-do-list-omega-liard.vercel.app/)**
+![imagem](https://github.com/user-attachments/assets/8b34024f-5838-4ac6-8f73-8ad39f9d05db)
 
+**Projeto de uma simples e funcional lista de tarefas, desenvolvida com HTML, CSS e JavaScript**
+
+**[Clique aqui para acessar](https://to-do-list-omega-liard.vercel.app/)**
 
 ## Funcionalidades
 
@@ -32,7 +34,7 @@
 
 ---
 
-## 🏗️ Melhorias futuras
+## Melhorias futuras
 
 - [ ] Refatoração para TypeScript
 - [ ] Melhorias no UX
